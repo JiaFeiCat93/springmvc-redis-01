@@ -22,9 +22,9 @@ public class Service {
     }
 
     public void seckill() {
-        //String identifier = lock.lockWithTimeout("resource", 5000, 1000);
+        String identifier = lock.lockWithTimeout("resource", 5000, 1000);
         System.out.println(Thread.currentThread().getName() + "获得了锁   111");
         System.out.println(--n);
-        //lock.releaseLock("resource", identifier);
+        lock.releaseLock("resource", identifier);
     }
 }
