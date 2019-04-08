@@ -33,4 +33,9 @@ public class UserController {
         model.addAttribute("user", users);
         return "UserList";
     }
+
+    @RequestMapping("/index")
+    public String hello() {
+        return "index2";
+    }
 }
