@@ -16,8 +16,8 @@
             </list>
         </property>
     </bean>
-    <!--配置redis的参数-->
-    <bean class="redis.clients.jedis.JedisPoolConfig" id="poolConfig">
+    <!--配置redis连接池的参数-->
+    <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">
         <property name="maxIdle" value="${redis.maxIdle}"/>
         <property name="maxTotal" value="${redis.maxActive}"/>
         <property name="maxWaitMillis" value="${redis.maxWait}"/>
@@ -28,13 +28,14 @@
         <property name="hostName" value="${redis.host}"/>
         <property name="port" value="${redis.port}"/>
         <!--<property name="password" value="${redis.password}"/>-->
-        <property name="database" value="${redis.dbIndex}"/>
+        <!--<property name="database" value="${redis.dbIndex}"/>-->
         <property name="poolConfig" ref="poolConfig"/>
     </bean>
 
     <!--redis操作模版,使用该对象可以操作redis  -->
     <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
         <property name="connectionFactory" ref="jedisConnectionFactory"/>
+        <!--如果不配置Serializer，那么存储的时候缺省使用String，如果用User类型存储，那么会提示错误User can't cast to String！！  -->
         <property name="keySerializer">
             <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
         </property>
