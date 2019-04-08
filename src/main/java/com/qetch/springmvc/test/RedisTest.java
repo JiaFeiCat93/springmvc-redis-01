@@ -29,8 +29,13 @@ public class RedisTest {
 
     @Test
     public void testRedis() {
-        System.out.println("--->" + redisTemplate.opsForValue().get("mykey"));
-        redisTemplate.delete("mykey");
+        Object mykey = redisTemplate.opsForValue().get("mykey");
+        System.out.println("--->" + mykey);
+        if (null == mykey) {
+            redisTemplate.opsForValue().set("mykey", "1232");
+        } else {
+            redisTemplate.delete("mykey");
+        }
         System.out.println("--->" + redisTemplate.opsForValue().get("mykey"));
     }
 
