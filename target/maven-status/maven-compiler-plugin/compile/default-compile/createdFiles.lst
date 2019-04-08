@@ -1,0 +1,11 @@
+com\qetch\springmvc\entity\UserExample$Criteria.class
+com\qetch\springmvc\config\redis\RedisCacheConfig.class
+com\qetch\springmvc\config\redis\MyKeyGenerator.class
+com\qetch\springmvc\service\UserService.class
+com\qetch\springmvc\entity\User.class
+com\qetch\springmvc\entity\UserExample$Criterion.class
+com\qetch\springmvc\dao\UserMapper.class
+com\qetch\springmvc\service\impl\UserServiceImpl.class
+com\qetch\springmvc\controller\UserController.class
+com\qetch\springmvc\entity\UserExample.class
+com\qetch\springmvc\entity\UserExample$GeneratedCriteria.class
