@@ -73,16 +73,4 @@ public class User {
     public void setAge(Integer age) {
         this.age = age;
     }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", nickname='" + nickname + '\'' +
-                ", sex='" + sex + '\'' +
-                ", age=" + age +
-                '}';
-    }
 }

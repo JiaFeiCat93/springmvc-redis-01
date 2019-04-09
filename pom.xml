@@ -139,7 +139,7 @@
   </dependencies>
 
   <build>
-    <finalName>vb-dao-consumer</finalName>
+    <finalName>springmvc-redis-01</finalName>
     <defaultGoal>compile</defaultGoal>
     <plugins>
       <plugin>
@@ -158,8 +158,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
           <encoding>utf-8</encoding>
         </configuration>
       </plugin>
