@@ -1,4 +1,4 @@
-package com.qetch.springmvc.test.distributelock;
+package com.qetch.springmvc.test.distributelock.redis;
 
 public class MainTest {
 

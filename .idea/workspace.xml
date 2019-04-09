@@ -7,11 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="525525a8-b69d-4d30-b596-dd0ae9d79db0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/DistributeLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/RedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/db/基于数据库的实现方式.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/基于Redis的实现方式.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/zookeeper/基于ZooKeeper的实现方式.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/分布式锁简单入门以及三种实现方式介绍.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/MainTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/ThreadA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/DistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/DistributeLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/DistributeLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/DistributeLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/ThreadA.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,12 +41,8 @@
       <file leaf-file-name="RedisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/RedisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-              <folding>
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -52,7 +59,7 @@
       <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
+            <state relative-caret-position="1254">
               <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
             </state>
           </provider>
@@ -62,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -71,29 +78,27 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/config/redis/RedisCacheConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DistributeLock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/DistributeLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/DistributeLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+            <state relative-caret-position="183">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/Service.java">
+      <file leaf-file-name="Service.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="511">
               <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,16 +107,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/MainTest.java">
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,7 +132,7 @@
       <file leaf-file-name="JedisPool.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="2033">
               <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
             </state>
           </provider>
@@ -170,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/DistributeLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java" />
       </list>
     </option>
   </component>
@@ -234,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +302,29 @@
               <item name="springmvc" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="distributelock" type="462c0819:PsiDirectoryNode" />
-              <item name="MainTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-redis-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-redis-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="distributelock" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-redis-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-redis-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="distributelock" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springmvc-redis-01" type="b2602c69:ProjectViewProjectNode" />
@@ -321,7 +348,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,8 +364,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\java\com\qetch\springmvc\test\distributelock\zookeeper" />
+      <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\java\com\qetch\springmvc\test\distributelock\redis" />
+      <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\java\com\qetch\springmvc\test\distributelock\db" />
+      <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\java\com\qetch\springmvc\test\distributelock" />
       <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\java\com\qetch\springmvc\config\redis" />
-      <recent name="F:\Java\idea-workspace\springmvc-redis-01\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,12 +385,12 @@
   </component>
   <component name="RunManager" selected="Application.MainTest">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.distributelock.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.distributelock.redis.MainTest" />
       <module name="springmvc-redis-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.distributelock.*" />
+          <option name="PATTERN" value="com.qetch.springmvc.test.distributelock.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -646,7 +676,8 @@
       <workItem from="1554637676538" duration="2303000" />
       <workItem from="1554648940429" duration="518000" />
       <workItem from="1554679322067" duration="2538000" />
-      <workItem from="1554726498137" duration="5581000" />
+      <workItem from="1554726498137" duration="5787000" />
+      <workItem from="1554765450246" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="init redis test ah 20190407">
       <created>1554649374443</created>
@@ -662,7 +693,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554683704190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update redis test ah 20190408">
+      <created>1554738194997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554738194997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update redis test ah 20190408">
+      <created>1554738246824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554738246824</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -683,7 +728,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14930000" />
+    <option name="totallyTimeSpent" value="17589000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -696,7 +741,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32922733" />
@@ -717,28 +761,27 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33706608" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29339305" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32922733" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.16204691" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32922733" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.16364606" />
       <window_info id="Web" order="2" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32123798" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32922733" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32123798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -763,6 +806,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -787,9 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,15 +1105,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="1254">
           <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
         </state>
       </provider>
@@ -1086,7 +1118,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1099,37 +1131,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/RedisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="418">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/config/redis/RedisCacheConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/DistributeLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-          </folding>
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0-sources.jar!/redis/clients/jedis/JedisPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="2033">
           <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
         </state>
       </provider>
@@ -1141,25 +1157,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/MainTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/DistributeLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="183">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="511">
           <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
           </folding>
         </state>
       </provider>
