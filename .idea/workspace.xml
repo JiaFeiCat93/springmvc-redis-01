@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09389406-ed71-4626-bb25-482c4e234726" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassLoadOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassLoadOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="e#160#161#0" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
@@ -63,6 +61,58 @@
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#500#501#0" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadWriteLockDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lock_8.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/Lock_8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#84#85#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadWriteLock.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/jre/lib/rt.jar!/java/util/concurrent/locks/ReadWriteLock.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReentrantReadWriteLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="123" column="8" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+              <folding>
+                <element signature="e#58319#58320#0" expanded="true" />
+                <element signature="e#58384#58385#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,6 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CallableDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/Lock_8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java" />
       </list>
     </option>
   </component>
@@ -186,6 +238,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="readwrite&#9;FILE&#9;jar://C:/Java/jdk1.8/jdk1.8.0_181/jre/lib/rt.jar!/java/util/concurrent/locks/ReadWriteLock.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -304,14 +357,14 @@
       <option name="presentableId" value="Default" />
       <updated>1554689212757</updated>
       <workItem from="1554689215905" duration="14462000" />
-      <workItem from="1554779917641" duration="11068000" />
+      <workItem from="1554779917641" duration="12409000" />
     </task>
-    <task id="LOCAL-00001" summary="update itc 20190408">
-      <created>1554720986596</created>
+    <task id="LOCAL-00001" summary="add juc test itc 20190409">
+      <created>1491733837007</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1554720986596</updated>
+      <updated>1491733837007</updated>
     </task>
     <task id="LOCAL-00002" summary="update itc 20190408">
       <created>1554721523071</created>
@@ -327,10 +380,11 @@
       <option name="project" value="LOCAL" />
       <updated>1554785252006</updated>
     </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5112000" />
+    <option name="totallyTimeSpent" value="6453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
@@ -339,12 +393,13 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502149" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32876712" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.24355301" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.24355301" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3295129" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.67792207" side_tool="true" weight="0.25358167" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -355,10 +410,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.497851" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47260273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24657534" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.32207793" visible="true" weight="0.25358167" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -367,11 +422,14 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add juc test itc 20190409" />
+    <option name="LAST_COMMIT_MESSAGE" value="add juc test itc 20190409" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="e#160#161#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
@@ -662,6 +720,57 @@
             <element signature="e#312#313#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="913" column="16" selection-start-line="913" selection-start-column="16" selection-end-line="913" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/jre/lib/rt.jar!/java/util/concurrent/locks/ReadWriteLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="123" column="8" lean-forward="true" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
+          <folding>
+            <element signature="e#58319#58320#0" expanded="true" />
+            <element signature="e#58384#58385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/Lock_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
