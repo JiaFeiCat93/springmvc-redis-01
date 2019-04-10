@@ -1,6 +1,5 @@
-package com.qetch.springmvc.test.juc;
+package com.qetch.springmvc.test.juc.shangguigu;
 
-import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 class MyQueue {

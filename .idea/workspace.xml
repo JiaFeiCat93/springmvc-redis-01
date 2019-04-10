@@ -2,71 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa16900d-59be-40d0-b98a-aef9c4a200a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/reentrantlock/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ClassLoadOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/config/redis/MyKeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/config/redis/MyKeyGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/config/redis/RedisCacheConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/config/redis/RedisCacheConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/entity/UserExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/RedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/RedisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CallableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountryEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ExecutorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ExecutorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/Lock_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/Lock_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ThreadOrderAccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/DistributeLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/DistributeLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/ThreadA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/ThreadA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datasource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/appcalitionContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/config/redis/MyKeyGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/config/redis/RedisCacheConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/entity/UserExample$Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/entity/UserExample$Criterion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/entity/UserExample$GeneratedCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/entity/UserExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/com/qetch/springmvc/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/datasource.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/redis.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/classes/spring-redis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/commons-pool2-2.4.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/druid-1.1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/ibatis-core-3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/jedis-3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/mybatis-3.4.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/mysql-connector-java-5.1.45.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/slf4j-api-1.7.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-aop-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-beans-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-context-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-context-support-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-core-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-data-commons-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-data-keyvalue-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-data-redis-2.1.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-expression-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-jcl-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-jdbc-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-oxm-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-test-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-tx-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-web-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/lib/spring-webmvc-5.0.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/vb-dao-consumer/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,20 +30,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadWriteLockDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java">
+      <file leaf-file-name="CallableDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CallableDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            <state>
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadOrderAccess.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java">
+      <file leaf-file-name="ThreadOrderAccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ThreadOrderAccess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,20 +51,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <file leaf-file-name="ClassLoadOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ClassLoadOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+            <state relative-caret-position="99">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lock.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/locks/Lock.java">
+      <file leaf-file-name="CountDownLatchDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="355" column="26" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="26" />
+            <state relative-caret-position="107">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountryEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CyclicBarrierDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CyclicBarrierDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutorsDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ExecutorsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lock_8.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/Lock_8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/reentrantlock/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +151,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadAccess.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/Lock_8.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/reentrantlock/Test1.java" />
       </list>
     </option>
   </component>
@@ -160,7 +167,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\Java\Repositories\Maven" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.2" />
         <option name="userSettingsFile" value="F:\Java\Repositories\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -204,8 +211,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +276,17 @@
               <item name="springmvc-redis-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="reentrantlock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springmvc-redis-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springmvc-redis-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -281,7 +300,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +313,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,58 +327,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadOrderAccess">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="CallableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.CallableDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.shangguigu.CallableDemo" />
       <module name="springmvc-redis-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.juc.*" />
+          <option name="PATTERN" value="com.qetch.springmvc.test.juc.shangguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.CountDownLatchDemo" />
+    <configuration name="ClassLoadOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.shangguigu.ClassLoadOrder" />
       <module name="springmvc-redis-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.CyclicBarrierDemo" />
-      <module name="springmvc-redis-01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.juc.*" />
+          <option name="PATTERN" value="com.qetch.springmvc.test.juc.shangguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ReadWriteLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.ReadWriteLockDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.shangguigu.ReadWriteLockDemo" />
       <module name="springmvc-redis-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.juc.*" />
+          <option name="PATTERN" value="com.qetch.springmvc.test.juc.shangguigu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.reentrantlock.Test1" />
+      <module name="springmvc-redis-01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qetch.springmvc.test.juc.reentrantlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ThreadOrderAccess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.ThreadOrderAccess" />
+      <option name="MAIN_CLASS_NAME" value="com.qetch.springmvc.test.juc.shangguigu.ThreadOrderAccess" />
       <module name="springmvc-redis-01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qetch.springmvc.test.juc.*" />
+          <option name="PATTERN" value="com.qetch.springmvc.test.juc.shangguigu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,19 +425,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CyclicBarrierDemo" />
-      <item itemvalue="Application.CountDownLatchDemo" />
       <item itemvalue="Application.CallableDemo" />
       <item itemvalue="Application.ReadWriteLockDemo" />
       <item itemvalue="Application.ThreadOrderAccess" />
+      <item itemvalue="Application.ClassLoadOrder" />
+      <item itemvalue="Application.Test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.ClassLoadOrder" />
         <item itemvalue="Application.ThreadOrderAccess" />
         <item itemvalue="Application.ReadWriteLockDemo" />
         <item itemvalue="Application.CallableDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -445,6 +463,7 @@
       <workItem from="1554819983218" duration="257000" />
       <workItem from="1554820260424" duration="7502000" />
       <workItem from="1554855059662" duration="1375000" />
+      <workItem from="1554864711845" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="init redis test ah 20190407">
       <created>1554649374443</created>
@@ -499,79 +518,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11308000" />
+    <option name="totallyTimeSpent" value="17626000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021322" side_tool="true" weight="0.5195969" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.20895523" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028653" side_tool="true" weight="0.5191781" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.20895523" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.2489339" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4989339" weight="0.3281075" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32922733" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.5195969" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32922733" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32922733" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.17004265" />
-      <window_info id="Web" order="2" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32922733" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.32922733" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32123798" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4989339" weight="0.3281075" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32897604" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32922733" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.20895523" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.31600833" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713466" visible="true" weight="0.5191781" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32922733" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.32922733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.33166188" />
+      <window_info id="Web" order="6" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" sideWeight="0.5008347" side_tool="true" weight="0.26332623" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.2489339" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32922733" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -593,34 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/entity/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="514" column="35" selection-start-line="514" selection-start-column="35" selection-end-line="514" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/appcalitionContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.3.RELEASE/spring-data-redis-2.1.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,27 +720,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="60" column="14" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="121" column="34" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/jre/lib/rt.jar!/sun/awt/shell/Win32ShellFolderManager2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8531">
-          <caret line="482" column="25" selection-start-line="482" selection-start-column="25" selection-end-line="482" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/lang/Runnable.java" />
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java" />
+    <entry file="jar://D:/jdk1.8.0_151/jre/lib/rt.jar!/sun/awt/shell/Win32ShellFolderManager2.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.10.RELEASE/spring-context-5.0.10.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -792,20 +730,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="438" column="59" lean-forward="true" selection-start-line="438" selection-start-column="59" selection-end-line="438" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/distributelock/redis/DistributeLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -834,13 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/Callable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -869,83 +789,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="126" column="53" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ExecutorsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/SemaphoreDemo.java">
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/ScheduledExecutorService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CyclicBarrierDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ReadWriteLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="544">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountDownLatchDemo.java">
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/locks/Lock.java" />
+    <entry file="jar://D:/jdk1.8.0_151/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ThreadOrderAccess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountryEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CallableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state>
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CallableDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ClassLoadOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        <state relative-caret-position="99">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountDownLatchDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        <state relative-caret-position="107">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/locks/Lock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountryEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="355" column="26" selection-start-line="355" selection-start-column="14" selection-end-line="355" selection-end-column="26" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_151/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="219" column="23" selection-start-line="219" selection-start-column="23" selection-end-line="219" selection-end-column="23" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ExecutorsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="107">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/Lock_8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/reentrantlock/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

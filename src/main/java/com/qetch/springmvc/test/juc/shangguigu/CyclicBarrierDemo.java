@@ -1,4 +1,4 @@
-package com.qetch.springmvc.test.juc;
+package com.qetch.springmvc.test.juc.shangguigu;
 
 import java.util.concurrent.CyclicBarrier;
 

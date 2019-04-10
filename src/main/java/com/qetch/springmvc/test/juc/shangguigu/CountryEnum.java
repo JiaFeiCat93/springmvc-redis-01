@@ -1,4 +1,4 @@
-package com.qetch.springmvc.test.juc;
+package com.qetch.springmvc.test.juc.shangguigu;
 
 public enum CountryEnum {
     HAN(1, "韩"),
