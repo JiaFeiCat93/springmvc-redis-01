@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa16900d-59be-40d0-b98a-aef9c4a200a8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/reentrantlock/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ClassLoadOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CallableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CallableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ClassLoadOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountDownLatchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CountryEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CountryEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/CyclicBarrierDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ExecutorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ExecutorsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/Lock_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/Lock_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ReadWriteLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/SemaphoreDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/ThreadOrderAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qetch/springmvc/test/juc/shangguigu/ThreadOrderAccess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/DistributeLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qetch/springmvc/test/distributelock/redis/DistributeLock.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -463,7 +451,7 @@
       <workItem from="1554819983218" duration="257000" />
       <workItem from="1554820260424" duration="7502000" />
       <workItem from="1554855059662" duration="1375000" />
-      <workItem from="1554864711845" duration="6318000" />
+      <workItem from="1554864711845" duration="6570000" />
     </task>
     <task id="LOCAL-00001" summary="init redis test ah 20190407">
       <created>1554649374443</created>
@@ -514,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554827701911</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/JiaFeiCat93/springmvc-redis-01&#10;                       &#10;                       # Conflicts:&#10;                       #&#9;.idea/workspace.xml">
+      <created>1554894640170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554894640170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17626000" />
+    <option name="totallyTimeSpent" value="17878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
