@@ -1,5 +1,9 @@
 package com.qetch.springmvc.test.juc.shangguigu;
 
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 class ShareData {
     private int number = 0;
 
@@ -26,6 +30,37 @@ class ShareData {
         System.out.println(Thread.currentThread().getName() + "\t" + number);
         this.notifyAll();
     }
+
+    Lock lock = new ReentrantLock();
+    Condition condition = lock.newCondition();
+
+    public void increment_lock() throws InterruptedException {
+        lock.lock();
+        try {
+            while (number != 0) {
+                condition.await();
+            }
+            number++;
+            System.out.println(Thread.currentThread().getName() + "\t" + number);
+            condition.signalAll();
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public void decrement_lock() throws InterruptedException {
+        lock.lock();
+        try {
+            while (number == 0) {
+                condition.await();
+            }
+            number--;
+            System.out.println(Thread.currentThread().getName() + "\t" + number);
+            condition.signalAll();
+        } finally {
+            lock.unlock();
+        }
+    }
 }
 
 /**
@@ -41,7 +76,8 @@ public class NotifyWaitDemo {
         new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
-                    shareData.increment();
+                    //shareData.increment();
+                    shareData.increment_lock();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -51,7 +87,8 @@ public class NotifyWaitDemo {
         new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
-                    shareData.decrement();
+                    //shareData.decrement();
+                    shareData.decrement_lock();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -61,7 +98,8 @@ public class NotifyWaitDemo {
         new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
-                    shareData.increment();
+                    //shareData.increment();
+                    shareData.increment_lock();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -71,7 +109,8 @@ public class NotifyWaitDemo {
         new Thread(() -> {
             for (int i = 1; i <= 10; i++) {
                 try {
-                    shareData.decrement();
+                    //shareData.decrement();
+                    shareData.decrement_lock();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
