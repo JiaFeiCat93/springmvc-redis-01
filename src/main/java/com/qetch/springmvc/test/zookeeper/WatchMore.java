@@ -85,8 +85,8 @@ public class WatchMore extends BaseZKConfig {
             logger.info("**********The value no changes**********");
             return false;
         } else {
-            oldValue = newValue;
             logger.info("**********oldValue:" + oldValue + "\t newValue:" + newValue + "**********");
+            oldValue = newValue;
             return true;
         }
     }

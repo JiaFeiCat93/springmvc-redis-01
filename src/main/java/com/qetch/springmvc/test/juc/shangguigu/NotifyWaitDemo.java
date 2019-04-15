@@ -4,7 +4,10 @@ class ShareData {
     private int number = 0;
 
     public synchronized void increment() throws InterruptedException {
-        if (number != 0) {
+        /*if (number != 0) {
+            this.wait();
+        }*/
+        while (number != 0) {
             this.wait();
         }
         number++;
@@ -13,7 +16,10 @@ class ShareData {
     }
 
     public synchronized void decrement() throws InterruptedException {
-        if (number == 0) {
+        /*if (number == 0) {
+            this.wait();
+        }*/
+        while (number == 0) {
             this.wait();
         }
         number--;
