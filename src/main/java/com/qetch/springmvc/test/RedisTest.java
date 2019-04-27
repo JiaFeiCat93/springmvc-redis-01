@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -51,5 +53,11 @@ public class RedisTest {
     @Test
     public void testController() {
         System.out.println(userController.hello());
+    }
+
+    @Test
+    public void testRedisPool() {
+        Jedis jedis = new Jedis("192.168.1.12", 6379);
+        System.out.println(jedis.keys("*"));
     }
 }
